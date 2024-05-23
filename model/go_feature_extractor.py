@@ -9,7 +9,7 @@ from torch_geometric.nn.inits import uniform, reset
 from torch_geometric.nn import (global_add_pool, JumpingKnowledge)
 from soft_mask_gnn import WeightConv1, SparseConv, WeightConv2
 
-
+#######
 class_length = {"bp": 19462, "mf": 6239, "cc":2434, "all":2752}
 
 
